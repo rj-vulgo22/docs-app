@@ -1,0 +1,1971 @@
+
+> docs-app@0.0.0 start
+> ng serve --host 0.0.0.0
+
+
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues.
+    
+❯ Building...
+✔ Building...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 15.16 kB | 
+styles.css          | styles        | 95 bytes | 
+
+                    | Initial total | 15.26 kB
+
+Application bundle generation complete. [3.058 seconds] - 2026-05-31T12:54:06.822Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:4200/
+  ➜  Network: http://10.88.0.4:4200/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  | Raw size
+styles.css          | styles |  1.75 kB | 
+
+Application bundle generation complete. [0.063 seconds] - 2026-05-31T13:05:32.560Z
+
+Stylesheet update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 24.00 kB | 
+
+Application bundle generation complete. [0.803 seconds] - 2026-05-31T13:06:18.086Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:7:2:
+[37m      7 │   [32mimports[37m: [AccordionComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.811 seconds] - 2026-05-31T13:06:46.439Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'toggleDarkMode' does not exist on type 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:8:45:
+[37m      8 │ ...rk-mode-toggle" (click)="[32mtoggleDarkMode[37m()" class="theme-toggle">...
+        ╵                             [32m~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:8:15:
+[37m      8 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 27.48 kB | 
+styles.css          | styles        |  1.75 kB | 
+
+                    | Initial total | 29.23 kB
+
+Application bundle generation complete. [0.378 seconds] - 2026-05-31T13:06:59.645Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 29.93 kB | 
+
+Application bundle generation complete. [0.451 seconds] - 2026-05-31T13:07:51.286Z
+
+Component update sent to client(s).
+1:10:56 PM [vite] (client) ✨ new dependencies optimized: @angular/common
+1:10:56 PM [vite] (client) ✨ optimized dependencies changed. reloading
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.046 seconds] - 2026-05-31T13:15:03.170Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: SheetComponent is not used within the template of Docs[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:13:32:
+[37m      13 │   imports: [AccordionComponent, [32mSheetComponent[37m],
+         ╵                                 [32m~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:17:13:
+[37m      17 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:42:13:
+[37m      42 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:138:13:
+[37m      138 │ export class [32mDocs[37m {
+          ╵              [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:6:13:
+[37m      6 │ export class [32mDocs[37m {
+        ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:138:13:
+[37m      138 │ export class [32mDocs[37m {
+          ╵              [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:6:13:
+[37m      6 │ export class [32mDocs[37m {
+        ╵              [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.450 seconds] - 2026-05-31T13:15:42.527Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:13:2:
+[37m      13 │   [32mimports[37m: [AccordionComponent, SheetComponent],
+         ╵   [32m~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:38:2:
+[37m      38 │   [32mimports[37m: [AccordionComponent],
+         ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:76:6:
+[37m      76 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:76:6:
+[37m      76 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:104:4:
+[37m      104 │     [32m</main>[37m
+          ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:104:4:
+[37m      104 │     [32m</main>[37m
+          ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:105:2:
+[37m      105 │   [32m</div>[37m
+          ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:105:2:
+[37m      105 │   [32m</div>[37m
+          ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:106:0:
+[37m      106 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:106:0:
+[37m      106 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:17:13:
+[37m      17 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:29:4:
+[37m      29 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:42:13:
+[37m      42 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:48:9:
+[37m      48 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:28:9:
+[37m      28 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.406 seconds] - 2026-05-31T13:16:40.615Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:13:2:
+[37m      13 │   [32mimports[37m: [AccordionComponent, SheetComponent],
+         ╵   [32m~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:38:2:
+[37m      38 │   [32mimports[37m: [AccordionComponent],
+         ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:76:6:
+[37m      76 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:76:6:
+[37m      76 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:104:4:
+[37m      104 │     [32m</main>[37m
+          ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:104:4:
+[37m      104 │     [32m</main>[37m
+          ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:105:2:
+[37m      105 │   [32m</div>[37m
+          ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:105:2:
+[37m      105 │   [32m</div>[37m
+          ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:106:0:
+[37m      106 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:106:0:
+[37m      106 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:17:13:
+[37m      17 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:29:4:
+[37m      29 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:42:13:
+[37m      42 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:48:9:
+[37m      48 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:28:9:
+[37m      28 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.163 seconds] - 2026-05-31T13:21:31.662Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:13:2:
+[37m      13 │   [32mimports[37m: [AccordionComponent, SheetComponent],
+         ╵   [32m~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:38:2:
+[37m      38 │   [32mimports[37m: [AccordionComponent],
+         ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/intro/intro"[0m
+
+    src/app/app.routes.ts:8:57:
+[37m      8 │ ...mponent: () => import([32m'./pages/intro/intro'[37m).then(m => m.IntroPa...
+        ╵                          [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/accordion/accordion"[0m
+
+    src/app/app.routes.ts:9:61:
+[37m      9 │ ...ent: () => import([32m'./pages/accordion/accordion'[37m).then(m => m.Acc...
+        ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/intro/intro' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:10:51:
+[37m      10 │ ...ponent: () => import([32m'./pages/intro/intro'[37m).then(m => m.IntroPa...
+         ╵                         [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/setup/setup"[0m
+
+    src/app/app.routes.ts:10:57:
+[37m      10 │ ...ponent: () => import([32m'./pages/setup/setup'[37m).then(m => m.SetupPa...
+         ╵                         [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/accordion/accordion' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:11:55:
+[37m      11 │ ...nt: () => import([32m'./pages/accordion/accordion'[37m).then(m => m.Acc...
+         ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/concepts/concepts"[0m
+
+    src/app/app.routes.ts:11:60:
+[37m      11 │ ...ent: () => import([32m'./pages/concepts/concepts'[37m).then(m => m.Conc...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/setup/setup' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:12:51:
+[37m      12 │ ...ponent: () => import([32m'./pages/setup/setup'[37m).then(m => m.SetupPa...
+         ╵                         [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/components/components"[0m
+
+    src/app/app.routes.ts:12:62:
+[37m      12 │ ...t: () => import([32m'./pages/components/components'[37m).then(m => m.Co...
+         ╵                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/concepts/concepts' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:13:54:
+[37m      13 │ ...ent: () => import([32m'./pages/concepts/concepts'[37m).then(m => m.Conc...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/components/components' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:14:56:
+[37m      14 │ ...t: () => import([32m'./pages/components/components'[37m).then(m => m.Co...
+         ╵                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:76:6:
+[37m      76 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:76:6:
+[37m      76 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:104:4:
+[37m      104 │     [32m</main>[37m
+          ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:104:4:
+[37m      104 │     [32m</main>[37m
+          ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:105:2:
+[37m      105 │   [32m</div>[37m
+          ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:105:2:
+[37m      105 │   [32m</div>[37m
+          ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:106:0:
+[37m      106 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:14:15:
+[37m      14 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:106:0:
+[37m      106 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:39:15:
+[37m      39 │   templateUrl: [32m'./docs.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:17:13:
+[37m      17 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:29:4:
+[37m      29 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:42:13:
+[37m      42 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:48:9:
+[37m      48 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:28:9:
+[37m      28 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.933 seconds] - 2026-05-31T13:22:34.956Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:76:6:
+[37m      76 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:104:4:
+[37m      104 │     [32m</main>[37m
+          ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:105:2:
+[37m      105 │   [32m</div>[37m
+          ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:106:0:
+[37m      106 │ [32m</div>[37m
+          ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.502 seconds] - 2026-05-31T13:23:04.622Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:32:6:
+[37m      32 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:60:4:
+[37m      60 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:61:2:
+[37m      61 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:62:0:
+[37m      62 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.533 seconds] - 2026-05-31T13:33:28.009Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:32:6:
+[37m      32 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:60:4:
+[37m      60 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:61:2:
+[37m      61 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:62:0:
+[37m      62 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Invalid ICU message. Missing '}'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.521 seconds] - 2026-05-31T13:33:53.378Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:37:6:
+[37m      37 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:65:4:
+[37m      65 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:66:2:
+[37m      66 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:67:0:
+[37m      67 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Invalid ICU message. Missing '}'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.398 seconds] - 2026-05-31T13:33:59.203Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:37:6:
+[37m      37 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:65:4:
+[37m      65 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:66:2:
+[37m      66 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:67:0:
+[37m      67 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Invalid ICU message. Missing '}'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.189 seconds] - 2026-05-31T13:34:09.474Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:37:6:
+[37m      37 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:65:4:
+[37m      65 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:66:2:
+[37m      66 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:67:0:
+[37m      67 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Invalid ICU message. Missing '}'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/mcp-config/mcp-config.ts:46:2:
+[37m      46 │   [32m`[37m,
+         ╵   [32m^[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.345 seconds] - 2026-05-31T13:36:08.747Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/opencode/opencode"[0m
+
+    src/app/app.routes.ts:9:60:
+[37m      9 │ ...nent: () => import([32m'./pages/opencode/opencode'[37m).then(m => m.Open...
+        ╵                       [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/mcp-servers/mcp-servers"[0m
+
+    src/app/app.routes.ts:10:63:
+[37m      10 │ ...: () => import([32m'./pages/mcp-servers/mcp-servers'[37m).then(m => m.M...
+         ╵                   [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/opencode/opencode' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:11:54:
+[37m      11 │ ...ent: () => import([32m'./pages/opencode/opencode'[37m).then(m => m.Open...
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/mcp-config/mcp-config"[0m
+
+    src/app/app.routes.ts:11:62:
+[37m      11 │ ...t: () => import([32m'./pages/mcp-config/mcp-config'[37m).then(m => m.Mc...
+         ╵                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/mcp-servers/mcp-servers' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:12:57:
+[37m      12 │ ...: () => import([32m'./pages/mcp-servers/mcp-servers'[37m).then(m => m.M...
+         ╵                   [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/mcp-config/mcp-config' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:13:56:
+[37m      13 │ ...t: () => import([32m'./pages/mcp-config/mcp-config'[37m).then(m => m.Mc...
+         ╵                    [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:37:6:
+[37m      37 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:65:4:
+[37m      65 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:66:2:
+[37m      66 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:67:0:
+[37m      67 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.182 seconds] - 2026-05-31T13:36:25.343Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:37:6:
+[37m      37 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:65:4:
+[37m      65 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:66:2:
+[37m      66 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:67:0:
+[37m      67 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.334 seconds] - 2026-05-31T13:36:48.728Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:8:2:
+[37m      8 │   [32mimports[37m: [RouterOutlet, RouterLink, SheetComponent],
+        ╵   [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:34:6:
+[37m      34 │       [32m</section>[37m
+         ╵       [32m~~~~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:62:4:
+[37m      62 │     [32m</main>[37m
+         ╵     [32m~~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:63:2:
+[37m      63 │   [32m</div>[37m
+         ╵   [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.html:64:0:
+[37m      64 │ [32m</div>[37m
+         ╵ [32m~~~~~~[0m
+
+  Error occurs in the template of component Docs.
+
+    src/app/docs/docs.ts:9:15:
+[37m      9 │   templateUrl: [32m'./docs.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:12:13:
+[37m      12 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mThe symbol "Docs" has already been declared[0m
+
+    src/app/docs/docs.ts:27:4:
+[37m      27 │ let [32mDocs[37m = class Docs {
+         ╵     [32m~~~~[0m
+
+  The symbol "Docs" was originally declared here:
+
+    src/app/docs/docs.ts:5:4:
+[37m      5 │ let [32mDocs[37m = class Docs {
+        ╵     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionComponent'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:31:12:
+[37m      31 │   imports: [[32mAccordionComponent[37m],
+         ╵             [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'Docs'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:35:13:
+[37m      35 │ export class [32mDocs[37m {
+         ╵              [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AccordionItem'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/docs/docs.ts:36:18:
+[37m      36 │   accordionItems: [32mAccordionItem[37m[] = [
+         ╵                   [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mMultiple exports with the same name "Docs"[0m
+
+    src/app/docs/docs.ts:46:9:
+[37m      46 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+  The name "Docs" was originally exported here:
+
+    src/app/docs/docs.ts:26:9:
+[37m      26 │ export { [32mDocs[37m };
+         ╵          [32m~~~~[0m
+
+

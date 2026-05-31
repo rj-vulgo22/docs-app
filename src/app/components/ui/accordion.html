@@ -1,0 +1,32 @@
+<div class="accordion">
+  @for (item of items; track $index) {
+    <div class="accordion-item">
+      <button 
+        class="accordion-trigger" 
+        (click)="toggle($index)"
+        [class.active]="expandedIndex() === $index">
+        <span>{{ item.title }}</span>
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          width="16" height="16" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          class="chevron"
+          [class.rotated]="expandedIndex() === $index">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+      <div 
+        class="accordion-content" 
+        [class.open]="expandedIndex() === $index">
+        <div class="accordion-inner">
+          {{ item.content }}
+        </div>
+      </div>
+    </div>
+  }
+</div>

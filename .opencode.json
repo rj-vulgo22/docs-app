@@ -1,0 +1,55 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "filesystem": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-filesystem", "/home/matheusmoraesgemini2024/AgentWeb/docs-app"],
+      "enabled": true
+    },
+    "git": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-git"],
+      "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-playwright"],
+      "enabled": true
+    },
+    "sequential-thinking": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "enabled": true
+    },
+    "docker": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-docker"],
+      "enabled": true
+    },
+    "sqlite": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-sqlite"],
+      "enabled": true
+    },
+    "markitdown": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-markitdown"],
+      "enabled": true
+    },
+    "memory": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
+      "enabled": true
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-chrome-devtools"],
+      "enabled": true
+    },
+    "crawl4ai": {
+      "type": "local",
+      "command": ["npx", "-y", "crawl4ai-mcp"],
+      "enabled": true
+    }
+  }
+}

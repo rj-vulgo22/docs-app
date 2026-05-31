@@ -1,0 +1,65 @@
+<div class="docs-container">
+  <header class="docs-header">
+    <div class="header-left">
+      <button (click)="openMenu()" class="menu-trigger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <div class="logo">Angular Docs</div>
+    </div>
+    <div class="header-right">
+      <button (click)="toggleDarkMode()" class="theme-toggle">🌓 Modo</button>
+    </div>
+  </header>
+
+  <app-sheet title="Navegação" #sheet>
+    <nav class="sheet-nav">
+      <ul>
+        <li><a routerLink="/docs/intro" (click)="closeMenu()">Introdução</a></li>
+        <li><a routerLink="/docs/accordion" (click)="closeMenu()">Accordion</a></li>
+        <li><a routerLink="/docs/setup" (click)="closeMenu()">Instalação</a></li>
+        <li><a routerLink="/docs/concepts" (click)="closeMenu()">Conceitos Básicos</a></li>
+        <li><a routerLink="/docs/components" (click)="closeMenu()">Componentes</a></li>
+      </ul>
+    </nav>
+  </app-sheet>
+
+  <main class="docs-content">
+    <router-outlet />
+  </main>
+</div>
+
+
+
+
+      </section>
+
+      <section id="accordion">
+        <h1>Accordion</h1>
+        <p>O componente Accordion é ideal para organizar grandes quantidades de conteúdo em espaços reduzidos, permitindo que o usuário expanda apenas as partes que lhe interessam.</p>
+        
+        <div class="component-demo">
+          <app-accordion [items]="accordionItems"></app-accordion>
+        </div>
+
+        <h2>Propriedades</h2>
+        <table class="docs-table">
+          <thead>
+            <tr>
+              <th>Propriedade</th>
+              <th>Tipo</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>items</code></td>
+              <td><code>AccordionItem[]</code></td>
+              <td>Lista de objetos contendo título e conteúdo.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</div>
+
