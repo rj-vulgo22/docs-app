@@ -219,6 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes accordion-up {
   from { height: var(--brn-accordion-content-height); }
   to { height: 0; }
+}
 
 /* CDK overlay: pane above header, backdrop stays below header */
 .cdk-overlay-pane {
