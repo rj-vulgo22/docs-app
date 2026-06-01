@@ -26,14 +26,14 @@ import { Component, ViewEncapsulation } from '@angular/core';
 				inset: 0;
 				background: linear-gradient(
 					105deg,
-					transparent 30%,
-					hsla(var(--foreground) / 0.02) 45%,
-					hsla(var(--foreground) / 0.04) 50%,
-					hsla(var(--foreground) / 0.02) 55%,
-					transparent 70%
+					transparent 25%,
+					hsla(var(--foreground) / 0.04) 40%,
+					hsla(var(--foreground) / 0.08) 50%,
+					hsla(var(--foreground) / 0.04) 60%,
+					transparent 75%
 				);
 				background-size: 300% 100%;
-				animation: code-block-shimmer 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+				animation: code-block-shimmer 12s linear infinite;
 				pointer-events: none;
 				z-index: 0;
 			}
