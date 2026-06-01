@@ -1,65 +1,99 @@
 <div class="docs-container">
   <header class="docs-header">
     <div class="header-left">
-      <button (click)="openMenu()" class="menu-trigger">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-      </button>
+      <hlm-sheet #sheetRef side="left">
+        <button hlmSheetTrigger class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <hlm-sheet-content *hlmSheetPortal class="w-[280px] sm:w-[300px]">
+          <hlm-sheet-header>
+            <h3 hlmSheetTitle class="text-foreground font-semibold text-base">Navegação</h3>
+          </hlm-sheet-header>
+          <nav class="sheet-nav flex-1 overflow-y-auto">
+            <div class="sheet-category">
+              <span class="sheet-category-title">Getting Started</span>
+              <ul>
+                <li><a routerLink="/docs/introduction" (click)="sheetRef.close()">Introdução</a></li>
+                <li><a routerLink="/docs/installation" (click)="sheetRef.close()">Instalação</a></li>
+                <li><a routerLink="/docs/components-json" (click)="sheetRef.close()">Components JSON</a></li>
+                <li><a routerLink="/docs/theming" (click)="sheetRef.close()">Theming</a></li>
+                <li><a routerLink="/docs/dark-mode" (click)="sheetRef.close()">Dark Mode</a></li>
+                <li><a routerLink="/docs/health-checks" (click)="sheetRef.close()">Health Checks</a></li>
+                <li><a routerLink="/docs/typography" (click)="sheetRef.close()">Tipografia</a></li>
+              </ul>
+            </div>
+            <div class="sheet-category">
+              <span class="sheet-category-title">Components</span>
+              <ul>
+                <li><a routerLink="/docs/accordion" (click)="sheetRef.close()">Accordion</a></li>
+                <li><a routerLink="/docs/alert" (click)="sheetRef.close()">Alert</a></li>
+                <li><a routerLink="/docs/alert-dialog" (click)="sheetRef.close()">Alert Dialog</a></li>
+                <li><a routerLink="/docs/aspect-ratio" (click)="sheetRef.close()">Aspect Ratio</a></li>
+                <li><a routerLink="/docs/autocomplete" (click)="sheetRef.close()">Autocomplete</a></li>
+                <li><a routerLink="/docs/avatar" (click)="sheetRef.close()">Avatar</a></li>
+                <li><a routerLink="/docs/badge" (click)="sheetRef.close()">Badge</a></li>
+                <li><a routerLink="/docs/breadcrumb" (click)="sheetRef.close()">Breadcrumb</a></li>
+                <li><a routerLink="/docs/button" (click)="sheetRef.close()">Button</a></li>
+                <li><a routerLink="/docs/button-group" (click)="sheetRef.close()">Button Group</a></li>
+                <li><a routerLink="/docs/calendar" (click)="sheetRef.close()">Calendar</a></li>
+                <li><a routerLink="/docs/card" (click)="sheetRef.close()">Card</a></li>
+                <li><a routerLink="/docs/carousel" (click)="sheetRef.close()">Carousel</a></li>
+                <li><a routerLink="/docs/chart" (click)="sheetRef.close()">Chart</a></li>
+                <li><a routerLink="/docs/checkbox" (click)="sheetRef.close()">Checkbox</a></li>
+                <li><a routerLink="/docs/collapsible" (click)="sheetRef.close()">Collapsible</a></li>
+                <li><a routerLink="/docs/combobox" (click)="sheetRef.close()">Combobox</a></li>
+                <li><a routerLink="/docs/command" (click)="sheetRef.close()">Command</a></li>
+                <li><a routerLink="/docs/context-menu" (click)="sheetRef.close()">Context Menu</a></li>
+                <li><a routerLink="/docs/data-table" (click)="sheetRef.close()">Data Table</a></li>
+                <li><a routerLink="/docs/date-picker" (click)="sheetRef.close()">Date Picker</a></li>
+                <li><a routerLink="/docs/dialog" (click)="sheetRef.close()">Dialog</a></li>
+                <li><a routerLink="/docs/dropdown-menu" (click)="sheetRef.close()">Dropdown Menu</a></li>
+                <li><a routerLink="/docs/empty" (click)="sheetRef.close()">Empty</a></li>
+                <li><a routerLink="/docs/field" (click)="sheetRef.close()">Field</a></li>
+                <li><a routerLink="/docs/hover-card" (click)="sheetRef.close()">Hover Card</a></li>
+                <li><a routerLink="/docs/icon" (click)="sheetRef.close()">Icon</a></li>
+                <li><a routerLink="/docs/input" (click)="sheetRef.close()">Input</a></li>
+                <li><a routerLink="/docs/input-group" (click)="sheetRef.close()">Input Group</a></li>
+                <li><a routerLink="/docs/input-otp" (click)="sheetRef.close()">Input Otp</a></li>
+                <li><a routerLink="/docs/item" (click)="sheetRef.close()">Item</a></li>
+                <li><a routerLink="/docs/kbd" (click)="sheetRef.close()">Kbd</a></li>
+                <li><a routerLink="/docs/label" (click)="sheetRef.close()">Label</a></li>
+                <li><a routerLink="/docs/menubar" (click)="sheetRef.close()">Menubar</a></li>
+                <li><a routerLink="/docs/native-select" (click)="sheetRef.close()">Native Select</a></li>
+                <li><a routerLink="/docs/navigation-menu" (click)="sheetRef.close()">Navigation Menu</a></li>
+                <li><a routerLink="/docs/pagination" (click)="sheetRef.close()">Pagination</a></li>
+                <li><a routerLink="/docs/popover" (click)="sheetRef.close()">Popover</a></li>
+                <li><a routerLink="/docs/progress" (click)="sheetRef.close()">Progress</a></li>
+                <li><a routerLink="/docs/radio-group" (click)="sheetRef.close()">Radio Group</a></li>
+                <li><a routerLink="/docs/resizable" (click)="sheetRef.close()">Resizable</a></li>
+                <li><a routerLink="/docs/scroll-area" (click)="sheetRef.close()">Scroll Area</a></li>
+                <li><a routerLink="/docs/select" (click)="sheetRef.close()">Select</a></li>
+                <li><a routerLink="/docs/separator" (click)="sheetRef.close()">Separator</a></li>
+                <li><a routerLink="/docs/sheet" (click)="sheetRef.close()">Sheet</a></li>
+                <li><a routerLink="/docs/sidebar" (click)="sheetRef.close()">Sidebar</a></li>
+                <li><a routerLink="/docs/skeleton" (click)="sheetRef.close()">Skeleton</a></li>
+                <li><a routerLink="/docs/slider" (click)="sheetRef.close()">Slider</a></li>
+                <li><a routerLink="/docs/sonner" (click)="sheetRef.close()">Sonner</a></li>
+                <li><a routerLink="/docs/spinner" (click)="sheetRef.close()">Spinner</a></li>
+                <li><a routerLink="/docs/switch" (click)="sheetRef.close()">Switch</a></li>
+                <li><a routerLink="/docs/table" (click)="sheetRef.close()">Table</a></li>
+                <li><a routerLink="/docs/tabs" (click)="sheetRef.close()">Tabs</a></li>
+                <li><a routerLink="/docs/textarea" (click)="sheetRef.close()">Textarea</a></li>
+                <li><a routerLink="/docs/toggle" (click)="sheetRef.close()">Toggle</a></li>
+                <li><a routerLink="/docs/toggle-group" (click)="sheetRef.close()">Toggle Group</a></li>
+                <li><a routerLink="/docs/tooltip" (click)="sheetRef.close()">Tooltip</a></li>
+              </ul>
+            </div>
+          </nav>
+        </hlm-sheet-content>
+      </hlm-sheet>
       <div class="logo">Angular Docs</div>
     </div>
     <div class="header-right">
-      <button (click)="toggleDarkMode()" class="theme-toggle">🌓 Modo</button>
     </div>
   </header>
-
-  <app-sheet title="Navegação" #sheet>
-    <nav class="sheet-nav">
-      <ul>
-        <li><a routerLink="/docs/intro" (click)="closeMenu()">Introdução</a></li>
-        <li><a routerLink="/docs/accordion" (click)="closeMenu()">Accordion</a></li>
-        <li><a routerLink="/docs/setup" (click)="closeMenu()">Instalação</a></li>
-        <li><a routerLink="/docs/concepts" (click)="closeMenu()">Conceitos Básicos</a></li>
-        <li><a routerLink="/docs/components" (click)="closeMenu()">Componentes</a></li>
-      </ul>
-    </nav>
-  </app-sheet>
 
   <main class="docs-content">
     <router-outlet />
   </main>
 </div>
-
-
-
-
-      </section>
-
-      <section id="accordion">
-        <h1>Accordion</h1>
-        <p>O componente Accordion é ideal para organizar grandes quantidades de conteúdo em espaços reduzidos, permitindo que o usuário expanda apenas as partes que lhe interessam.</p>
-        
-        <div class="component-demo">
-          <app-accordion [items]="accordionItems"></app-accordion>
-        </div>
-
-        <h2>Propriedades</h2>
-        <table class="docs-table">
-          <thead>
-            <tr>
-              <th>Propriedade</th>
-              <th>Tipo</th>
-              <th>Descrição</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><code>items</code></td>
-              <td><code>AccordionItem[]</code></td>
-              <td>Lista de objetos contendo título e conteúdo.</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-    </main>
-  </div>
-</div>
-

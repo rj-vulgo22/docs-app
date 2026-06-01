@@ -1,0 +1,2638 @@
+{
+  "accordion.ts": {
+    "helm": {
+      "AccordionComponent": {
+        "file": "src/app/components/ui/accordion.ts",
+        "inputs": [
+          {
+            "name": "items",
+            "type": "AccordionItem[]",
+            "description": "",
+            "defaultValue": null,
+            "required": false
+          }
+        ],
+        "outputs": [],
+        "models": [],
+        "selector": "app-accordion",
+        "exportAs": null
+      }
+    }
+  },
+  "sheet": {
+    "helm": {
+      "SheetComponent": {
+        "file": "src/app/components/ui/sheet/sheet.ts",
+        "inputs": [
+          {
+            "name": "title",
+            "type": "string",
+            "description": "",
+            "defaultValue": null,
+            "required": false
+          }
+        ],
+        "outputs": [],
+        "models": [],
+        "selector": "app-sheet",
+        "exportAs": null
+      },
+      "HlmSheetClose": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-close.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmSheetClose]",
+        "exportAs": null
+      },
+      "HlmSheetContent": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-sheet-content",
+        "exportAs": null
+      },
+      "HlmSheetDescription": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSheetDescription]",
+        "exportAs": null
+      },
+      "HlmSheetFooter": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-footer.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSheetFooter],hlm-sheet-footer",
+        "exportAs": null
+      },
+      "HlmSheetHeader": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-header.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSheetHeader],hlm-sheet-header",
+        "exportAs": null
+      },
+      "HlmSheetOverlay": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-overlay.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSheetOverlay],hlm-sheet-overlay",
+        "exportAs": null
+      },
+      "HlmSheetPortal": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSheetPortal]",
+        "exportAs": null
+      },
+      "HlmSheetTitle": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSheetTitle]",
+        "exportAs": null
+      },
+      "HlmSheetTrigger": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmSheetTrigger]",
+        "exportAs": null
+      },
+      "HlmSheet": {
+        "file": "src/app/components/ui/sheet/src/lib/hlm-sheet.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-sheet",
+        "exportAs": "hlmSheet"
+      }
+    }
+  },
+  "accordion": {
+    "helm": {
+      "HlmAccordionContent": {
+        "file": "src/app/components/ui/accordion/src/lib/hlm-accordion-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-accordion-content",
+        "exportAs": null
+      },
+      "HlmAccordionItem": {
+        "file": "src/app/components/ui/accordion/src/lib/hlm-accordion-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAccordionItem],hlm-accordion-item",
+        "exportAs": null
+      },
+      "HlmAccordionTrigger": {
+        "file": "src/app/components/ui/accordion/src/lib/hlm-accordion-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-accordion-trigger",
+        "exportAs": null
+      },
+      "HlmAccordion": {
+        "file": "src/app/components/ui/accordion/src/lib/hlm-accordion.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAccordion], hlm-accordion",
+        "exportAs": null
+      }
+    }
+  },
+  "alert": {
+    "helm": {
+      "HlmAlertAction": {
+        "file": "src/app/components/ui/alert/src/lib/hlm-alert-action.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertAction]",
+        "exportAs": null
+      },
+      "HlmAlertDescription": {
+        "file": "src/app/components/ui/alert/src/lib/hlm-alert-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDescription]",
+        "exportAs": null
+      },
+      "HlmAlertTitle": {
+        "file": "src/app/components/ui/alert/src/lib/hlm-alert-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertTitle]",
+        "exportAs": null
+      },
+      "HlmAlert": {
+        "file": "src/app/components/ui/alert/src/lib/hlm-alert.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-alert,[hlmAlert]",
+        "exportAs": null
+      }
+    }
+  },
+  "alert-dialog": {
+    "helm": {
+      "HlmAlertDialogAction": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-action.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmAlertDialogAction]",
+        "exportAs": null
+      },
+      "HlmAlertDialogCancel": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-cancel.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmAlertDialogCancel]",
+        "exportAs": null
+      },
+      "HlmAlertDialogContent": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDialogContent],hlm-alert-dialog-content",
+        "exportAs": null
+      },
+      "HlmAlertDialogDescription": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDialogDescription]",
+        "exportAs": null
+      },
+      "HlmAlertDialogFooter": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-footer.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDialogFooter],hlm-alert-dialog-footer",
+        "exportAs": null
+      },
+      "HlmAlertDialogHeader": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-header.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDialogHeader],hlm-alert-dialog-header",
+        "exportAs": null
+      },
+      "HlmAlertDialogOverlay": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-overlay.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDialogOverlay],hlm-alert-dialog-overlay",
+        "exportAs": null
+      },
+      "HlmAlertDialogPortal": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDialogPortal]",
+        "exportAs": null
+      },
+      "HlmAlertDialogTitle": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAlertDialogTitle]",
+        "exportAs": null
+      },
+      "HlmAlertDialogTrigger": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmAlertDialogTrigger],button[hlmAlertDialogTriggerFor]",
+        "exportAs": null
+      },
+      "HlmAlertDialog": {
+        "file": "src/app/components/ui/alert-dialog/src/lib/hlm-alert-dialog.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-alert-dialog",
+        "exportAs": "hlmAlertDialog"
+      }
+    }
+  },
+  "aspect-ratio": {
+    "helm": {
+      "HlmAspectRatio": {
+        "file": "src/app/components/ui/aspect-ratio/src/lib/hlm-aspect-ratio.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAspectRatio]",
+        "exportAs": null
+      }
+    }
+  },
+  "autocomplete": {
+    "helm": {
+      "HlmAutocompleteContent": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteContent],hlm-autocomplete-content",
+        "exportAs": null
+      },
+      "HlmAutocompleteEmpty": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-empty.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteEmpty],hlm-autocomplete-empty",
+        "exportAs": null
+      },
+      "HlmAutocompleteGroup": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteGroup]",
+        "exportAs": null
+      },
+      "HlmAutocompleteInput": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-input.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-autocomplete-input",
+        "exportAs": null
+      },
+      "HlmAutocompleteItem": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-autocomplete-item",
+        "exportAs": null
+      },
+      "HlmAutocompleteLabel": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteLabel]",
+        "exportAs": null
+      },
+      "HlmAutocompleteList": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-list.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteList]",
+        "exportAs": null
+      },
+      "HlmAutocompletePortal": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompletePortal]",
+        "exportAs": null
+      },
+      "HlmAutocompleteSearch": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-search.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteSearch],hlm-autocomplete-search",
+        "exportAs": null
+      },
+      "HlmAutocompleteSeparator": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteSeparator]",
+        "exportAs": null
+      },
+      "HlmAutocompleteStatus": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete-status.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocompleteStatus],hlm-autocomplete-status",
+        "exportAs": null
+      },
+      "HlmAutocomplete": {
+        "file": "src/app/components/ui/autocomplete/src/lib/hlm-autocomplete.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAutocomplete],hlm-autocomplete",
+        "exportAs": null
+      }
+    }
+  },
+  "avatar": {
+    "helm": {
+      "HlmAvatarBadge": {
+        "file": "src/app/components/ui/avatar/src/lib/hlm-avatar-badge.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAvatarBadge],hlm-avatar-badge",
+        "exportAs": null
+      },
+      "HlmAvatarFallback": {
+        "file": "src/app/components/ui/avatar/src/lib/hlm-avatar-fallback.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAvatarFallback]",
+        "exportAs": "avatarFallback"
+      },
+      "HlmAvatarGroupCount": {
+        "file": "src/app/components/ui/avatar/src/lib/hlm-avatar-group-count.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAvatarGroupCount],hlm-avatar-group-count",
+        "exportAs": null
+      },
+      "HlmAvatarGroup": {
+        "file": "src/app/components/ui/avatar/src/lib/hlm-avatar-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmAvatarGroup],hlm-avatar-group",
+        "exportAs": null
+      },
+      "HlmAvatarImage": {
+        "file": "src/app/components/ui/avatar/src/lib/hlm-avatar-image.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "img[hlmAvatarImage]",
+        "exportAs": "avatarImage"
+      },
+      "HlmAvatar": {
+        "file": "src/app/components/ui/avatar/src/lib/hlm-avatar.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-avatar",
+        "exportAs": null
+      }
+    }
+  },
+  "badge": {
+    "helm": {
+      "HlmBadge": {
+        "file": "src/app/components/ui/badge/src/lib/hlm-badge.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBadge],hlm-badge",
+        "exportAs": null
+      }
+    }
+  },
+  "breadcrumb": {
+    "helm": {
+      "HlmBreadcrumbEllipsis": {
+        "file": "src/app/components/ui/breadcrumb/src/lib/hlm-breadcrumb-ellipsis.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-breadcrumb-ellipsis",
+        "exportAs": null
+      },
+      "HlmBreadcrumbItem": {
+        "file": "src/app/components/ui/breadcrumb/src/lib/hlm-breadcrumb-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBreadcrumbItem]",
+        "exportAs": null
+      },
+      "HlmBreadcrumbLink": {
+        "file": "src/app/components/ui/breadcrumb/src/lib/hlm-breadcrumb-link.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBreadcrumbLink]",
+        "exportAs": null
+      },
+      "HlmBreadcrumbList": {
+        "file": "src/app/components/ui/breadcrumb/src/lib/hlm-breadcrumb-list.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBreadcrumbList]",
+        "exportAs": null
+      },
+      "HlmBreadcrumbPage": {
+        "file": "src/app/components/ui/breadcrumb/src/lib/hlm-breadcrumb-page.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBreadcrumbPage]",
+        "exportAs": null
+      },
+      "HlmBreadcrumbSeparator": {
+        "file": "src/app/components/ui/breadcrumb/src/lib/hlm-breadcrumb-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBreadcrumbSeparator]",
+        "exportAs": null
+      },
+      "HlmBreadcrumb": {
+        "file": "src/app/components/ui/breadcrumb/src/lib/hlm-breadcrumb.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBreadcrumb]",
+        "exportAs": null
+      }
+    }
+  },
+  "button": {
+    "helm": {
+      "HlmButton": {
+        "file": "src/app/components/ui/button/src/lib/hlm-button.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmBtn], a[hlmBtn]",
+        "exportAs": "hlmBtn"
+      }
+    }
+  },
+  "button-group": {
+    "helm": {
+      "HlmButtonGroupSeparator": {
+        "file": "src/app/components/ui/button-group/src/lib/hlm-button-group-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmButtonGroupSeparator],hlm-button-group-separator",
+        "exportAs": null
+      },
+      "HlmButtonGroupText": {
+        "file": "src/app/components/ui/button-group/src/lib/hlm-button-group-text.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmButtonGroupText],hlm-button-group-text",
+        "exportAs": null
+      },
+      "HlmButtonGroup": {
+        "file": "src/app/components/ui/button-group/src/lib/hlm-button-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmButtonGroup],hlm-button-group",
+        "exportAs": null
+      }
+    }
+  },
+  "calendar": {
+    "helm": {
+      "HlmCalendarMulti": {
+        "file": "src/app/components/ui/calendar/src/lib/hlm-calendar-multi.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-calendar-multi",
+        "exportAs": null
+      },
+      "HlmCalendarRange": {
+        "file": "src/app/components/ui/calendar/src/lib/hlm-calendar-range.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-calendar-range",
+        "exportAs": null
+      },
+      "HlmCalendar": {
+        "file": "src/app/components/ui/calendar/src/lib/hlm-calendar.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-calendar",
+        "exportAs": null
+      }
+    }
+  },
+  "card": {
+    "helm": {
+      "HlmCardAction": {
+        "file": "src/app/components/ui/card/src/lib/hlm-card-action.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCardAction]",
+        "exportAs": null
+      },
+      "HlmCardContent": {
+        "file": "src/app/components/ui/card/src/lib/hlm-card-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCardContent]",
+        "exportAs": null
+      },
+      "HlmCardDescription": {
+        "file": "src/app/components/ui/card/src/lib/hlm-card-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCardDescription]",
+        "exportAs": null
+      },
+      "HlmCardFooter": {
+        "file": "src/app/components/ui/card/src/lib/hlm-card-footer.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCardFooter],hlm-card-footer",
+        "exportAs": null
+      },
+      "HlmCardHeader": {
+        "file": "src/app/components/ui/card/src/lib/hlm-card-header.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCardHeader],hlm-card-header",
+        "exportAs": null
+      },
+      "HlmCardTitle": {
+        "file": "src/app/components/ui/card/src/lib/hlm-card-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCardTitle]",
+        "exportAs": null
+      },
+      "HlmCard": {
+        "file": "src/app/components/ui/card/src/lib/hlm-card.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCard],hlm-card",
+        "exportAs": null
+      }
+    }
+  },
+  "carousel": {
+    "helm": {
+      "HlmCarouselContent": {
+        "file": "src/app/components/ui/carousel/src/lib/hlm-carousel-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCarouselContent],hlm-carousel-content",
+        "exportAs": null
+      },
+      "HlmCarouselItem": {
+        "file": "src/app/components/ui/carousel/src/lib/hlm-carousel-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCarouselItem],hlm-carousel-item",
+        "exportAs": null
+      },
+      "HlmCarouselNext": {
+        "file": "src/app/components/ui/carousel/src/lib/hlm-carousel-next.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlm-carousel-next], button[hlmCarouselNext]",
+        "exportAs": null
+      },
+      "HlmCarouselPrevious": {
+        "file": "src/app/components/ui/carousel/src/lib/hlm-carousel-previous.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlm-carousel-previous], button[hlmCarouselPrevious]",
+        "exportAs": null
+      },
+      "HlmCarouselSlideDisplay": {
+        "file": "src/app/components/ui/carousel/src/lib/hlm-carousel-slide-display.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-carousel-slide-display",
+        "exportAs": null
+      },
+      "HlmCarousel": {
+        "file": "src/app/components/ui/carousel/src/lib/hlm-carousel.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-carousel",
+        "exportAs": null
+      }
+    }
+  },
+  "checkbox": {
+    "helm": {
+      "HlmCheckbox": {
+        "file": "src/app/components/ui/checkbox/src/lib/hlm-checkbox.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-checkbox",
+        "exportAs": null
+      }
+    }
+  },
+  "collapsible": {
+    "helm": {
+      "HlmCollapsibleContent": {
+        "file": "src/app/components/ui/collapsible/src/lib/hlm-collapsible-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCollapsibleContent],hlm-collapsible-content",
+        "exportAs": null
+      },
+      "HlmCollapsibleTrigger": {
+        "file": "src/app/components/ui/collapsible/src/lib/hlm-collapsible-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmCollapsibleTrigger]",
+        "exportAs": null
+      },
+      "HlmCollapsible": {
+        "file": "src/app/components/ui/collapsible/src/lib/hlm-collapsible.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCollapsible],hlm-collapsible",
+        "exportAs": null
+      }
+    }
+  },
+  "combobox": {
+    "helm": {
+      "HlmComboboxChipInput": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-chip-input.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "input[hlmComboboxChipInput]",
+        "exportAs": null
+      },
+      "HlmComboboxChipRemove": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-chip-remove.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmComboboxChipRemove]",
+        "exportAs": null
+      },
+      "HlmComboboxChip": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-chip.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-combobox-chip",
+        "exportAs": null
+      },
+      "HlmComboboxChips": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-chips.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxChips],hlm-combobox-chips",
+        "exportAs": null
+      },
+      "HlmComboboxContent": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxContent],hlm-combobox-content",
+        "exportAs": null
+      },
+      "HlmComboboxEmpty": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-empty.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxEmpty],hlm-combobox-empty",
+        "exportAs": null
+      },
+      "HlmComboboxGroup": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxGroup]",
+        "exportAs": null
+      },
+      "HlmComboboxInput": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-input.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-combobox-input",
+        "exportAs": null
+      },
+      "HlmComboboxItem": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-combobox-item",
+        "exportAs": null
+      },
+      "HlmComboboxLabel": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxLabel]",
+        "exportAs": null
+      },
+      "HlmComboboxList": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-list.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxList]",
+        "exportAs": null
+      },
+      "HlmComboboxMultiple": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-multiple.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxMultiple],hlm-combobox-multiple",
+        "exportAs": null
+      },
+      "HlmComboboxPlaceholder": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-placeholder.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxPlaceholder],hlm-combobox-placeholder",
+        "exportAs": null
+      },
+      "HlmComboboxPortal": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxPortal]",
+        "exportAs": null
+      },
+      "HlmComboboxSeparator": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxSeparator]",
+        "exportAs": null
+      },
+      "HlmComboboxStatus": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-status.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxStatus],hlm-combobox-status",
+        "exportAs": null
+      },
+      "HlmComboboxTrigger": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-combobox-trigger",
+        "exportAs": null
+      },
+      "HlmComboboxValueTemplate": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-value-template.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxValueTemplate]",
+        "exportAs": null
+      },
+      "HlmComboboxValue": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-value.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxValue],hlm-combobox-value",
+        "exportAs": null
+      },
+      "HlmComboboxValues": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox-values.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmComboboxValues]",
+        "exportAs": null
+      },
+      "HlmCombobox": {
+        "file": "src/app/components/ui/combobox/src/lib/hlm-combobox.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCombobox],hlm-combobox",
+        "exportAs": null
+      }
+    }
+  },
+  "command": {
+    "helm": {
+      "HlmCommandDialog": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-dialog.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-command-dialog",
+        "exportAs": null
+      },
+      "HlmCommandEmptyState": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-empty-state.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommandEmptyState]",
+        "exportAs": null
+      },
+      "HlmCommandEmpty": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-empty.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommandEmpty]",
+        "exportAs": null
+      },
+      "HlmCommandGroupLabel": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-group-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommandGroupLabel],hlm-command-group-label",
+        "exportAs": null
+      },
+      "HlmCommandGroup": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommandGroup],hlm-command-group",
+        "exportAs": null
+      },
+      "HlmCommandInput": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-input.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-command-input",
+        "exportAs": null
+      },
+      "HlmCommandItem": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmCommandItem],button[hlm-command-item]",
+        "exportAs": null
+      },
+      "HlmCommandList": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-list.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommandList],hlm-command-list",
+        "exportAs": null
+      },
+      "HlmCommandSeparator": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommandSeparator],hlm-command-separator",
+        "exportAs": null
+      },
+      "HlmCommandShortcut": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command-shortcut.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommandShortcut],hlm-command-shortcut",
+        "exportAs": null
+      },
+      "HlmCommand": {
+        "file": "src/app/components/ui/command/src/lib/hlm-command.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCommand],hlm-command",
+        "exportAs": null
+      }
+    }
+  },
+  "context-menu": {
+    "helm": {
+      "HlmContextMenuTrigger": {
+        "file": "src/app/components/ui/context-menu/src/lib/hlm-context-menu-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmContextMenuTrigger]",
+        "exportAs": null
+      }
+    }
+  },
+  "date-picker": {
+    "helm": {
+      "HlmDatePickerMulti": {
+        "file": "src/app/components/ui/date-picker/src/lib/hlm-date-picker-multi.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-date-picker-multi",
+        "exportAs": null
+      },
+      "HlmDatePicker": {
+        "file": "src/app/components/ui/date-picker/src/lib/hlm-date-picker.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-date-picker",
+        "exportAs": null
+      },
+      "HlmDateRangePicker": {
+        "file": "src/app/components/ui/date-picker/src/lib/hlm-date-range-picker.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-date-range-picker",
+        "exportAs": null
+      }
+    }
+  },
+  "dialog": {
+    "helm": {
+      "HlmDialogClose": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-close.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmDialogClose]",
+        "exportAs": null
+      },
+      "HlmDialogContent": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-dialog-content",
+        "exportAs": null
+      },
+      "HlmDialogDescription": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDialogDescription]",
+        "exportAs": null
+      },
+      "HlmDialogFooter": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-footer.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDialogFooter],hlm-dialog-footer",
+        "exportAs": null
+      },
+      "HlmDialogHeader": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-header.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDialogHeader],hlm-dialog-header",
+        "exportAs": null
+      },
+      "HlmDialogOverlay": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-overlay.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDialogOverlay],hlm-dialog-overlay",
+        "exportAs": null
+      },
+      "HlmDialogPortal": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDialogPortal]",
+        "exportAs": null
+      },
+      "HlmDialogTitle": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDialogTitle]",
+        "exportAs": null
+      },
+      "HlmDialogTrigger": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmDialogTrigger],button[hlmDialogTriggerFor]",
+        "exportAs": null
+      },
+      "HlmDialog": {
+        "file": "src/app/components/ui/dialog/src/lib/hlm-dialog.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-dialog",
+        "exportAs": "hlmDialog"
+      }
+    }
+  },
+  "dropdown-menu": {
+    "helm": {
+      "HlmDropdownMenuCheckboxIndicator": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-checkbox-indicator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-dropdown-menu-checkbox-indicator",
+        "exportAs": null
+      },
+      "HlmDropdownMenuCheckbox": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-checkbox.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuCheckbox]",
+        "exportAs": null
+      },
+      "HlmDropdownMenuGroup": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuGroup],hlm-dropdown-menu-group",
+        "exportAs": null
+      },
+      "HlmDropdownMenuItemSubIndicator": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-item-sub-indicator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-dropdown-menu-item-sub-indicator",
+        "exportAs": null
+      },
+      "HlmDropdownMenuItem": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuItem],hlm-dropdown-menu-item",
+        "exportAs": null
+      },
+      "HlmDropdownMenuLabel": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuLabel],hlm-dropdown-menu-label",
+        "exportAs": null
+      },
+      "HlmDropdownMenuRadioIndicator": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-radio-indicator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-dropdown-menu-radio-indicator",
+        "exportAs": null
+      },
+      "HlmDropdownMenuRadio": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-radio.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuRadio]",
+        "exportAs": null
+      },
+      "HlmDropdownMenuSeparator": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuSeparator],hlm-dropdown-menu-separator",
+        "exportAs": null
+      },
+      "HlmDropdownMenuShortcut": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-shortcut.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuShortcut],hlm-dropdown-menu-shortcut",
+        "exportAs": null
+      },
+      "HlmDropdownMenuSub": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-sub.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuSub],hlm-dropdown-menu-sub",
+        "exportAs": null
+      },
+      "HlmDropdownMenuTrigger": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenuTrigger]",
+        "exportAs": null
+      },
+      "HlmDropdownMenu": {
+        "file": "src/app/components/ui/dropdown-menu/src/lib/hlm-dropdown-menu.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmDropdownMenu],hlm-dropdown-menu",
+        "exportAs": null
+      }
+    }
+  },
+  "empty": {
+    "helm": {
+      "HlmEmptyContent": {
+        "file": "src/app/components/ui/empty/src/lib/hlm-empty-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmEmptyContent],hlm-empty-content",
+        "exportAs": null
+      },
+      "HlmEmptyDescription": {
+        "file": "src/app/components/ui/empty/src/lib/hlm-empty-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmEmptyDescription]",
+        "exportAs": null
+      },
+      "HlmEmptyHeader": {
+        "file": "src/app/components/ui/empty/src/lib/hlm-empty-header.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmEmptyHeader],hlm-empty-header",
+        "exportAs": null
+      },
+      "HlmEmptyMedia": {
+        "file": "src/app/components/ui/empty/src/lib/hlm-empty-media.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmEmptyMedia],hlm-empty-media",
+        "exportAs": null
+      },
+      "HlmEmptyTitle": {
+        "file": "src/app/components/ui/empty/src/lib/hlm-empty-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmEmptyTitle]",
+        "exportAs": null
+      },
+      "HlmEmpty": {
+        "file": "src/app/components/ui/empty/src/lib/hlm-empty.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmEmpty],hlm-empty",
+        "exportAs": null
+      }
+    }
+  },
+  "field": {
+    "helm": {
+      "HlmFieldContent": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmFieldContent],hlm-field-content",
+        "exportAs": null
+      },
+      "HlmFieldDescription": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmFieldDescription],hlm-field-description",
+        "exportAs": null
+      },
+      "HlmFieldError": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-error.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-field-error",
+        "exportAs": null
+      },
+      "HlmFieldGroup": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmFieldGroup],hlm-field-group",
+        "exportAs": null
+      },
+      "HlmFieldLabel": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmFieldLabel],hlm-field-label",
+        "exportAs": null
+      },
+      "HlmFieldLegend": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-legend.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "legend[hlmFieldLegend]",
+        "exportAs": null
+      },
+      "HlmFieldSeparator": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-field-separator",
+        "exportAs": null
+      },
+      "HlmFieldSet": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-set.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "fieldset[hlmFieldSet]",
+        "exportAs": null
+      },
+      "HlmFieldTitle": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmFieldTitle],hlm-field-title",
+        "exportAs": null
+      },
+      "HlmField": {
+        "file": "src/app/components/ui/field/src/lib/hlm-field.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmField],hlm-field",
+        "exportAs": null
+      }
+    }
+  },
+  "hover-card": {
+    "helm": {
+      "HlmHoverCardContent": {
+        "file": "src/app/components/ui/hover-card/src/lib/hlm-hover-card-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmHoverCardContent],hlm-hover-card-content",
+        "exportAs": null
+      },
+      "HlmHoverCardPortal": {
+        "file": "src/app/components/ui/hover-card/src/lib/hlm-hover-card-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmHoverCardPortal],hlm-hover-card-portal",
+        "exportAs": null
+      },
+      "HlmHoverCardTrigger": {
+        "file": "src/app/components/ui/hover-card/src/lib/hlm-hover-card-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmHoverCardTrigger]",
+        "exportAs": null
+      },
+      "HlmHoverCard": {
+        "file": "src/app/components/ui/hover-card/src/lib/hlm-hover-card.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmHoverCard],hlm-hover-card",
+        "exportAs": null
+      }
+    }
+  },
+  "icon": {
+    "helm": {
+      "HlmIcon": {
+        "file": "src/app/components/ui/icon/src/lib/hlm-icon.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "ng-icon[hlmIcon], ng-icon[hlm]",
+        "exportAs": null
+      }
+    }
+  },
+  "input": {
+    "helm": {
+      "HlmInput": {
+        "file": "src/app/components/ui/input/src/lib/hlm-input.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmInput]",
+        "exportAs": null
+      }
+    }
+  },
+  "input-group": {
+    "helm": {
+      "HlmInputGroupAddon": {
+        "file": "src/app/components/ui/input-group/src/lib/hlm-input-group-addon.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmInputGroupAddon],hlm-input-group-addon",
+        "exportAs": null
+      },
+      "HlmInputGroupButton": {
+        "file": "src/app/components/ui/input-group/src/lib/hlm-input-group-button.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmInputGroupButton]",
+        "exportAs": null
+      },
+      "HlmInputGroupInput": {
+        "file": "src/app/components/ui/input-group/src/lib/hlm-input-group-input.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "input[hlmInputGroupInput]",
+        "exportAs": null
+      },
+      "HlmInputGroupText": {
+        "file": "src/app/components/ui/input-group/src/lib/hlm-input-group-text.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmInputGroupText],hlm-input-group-text",
+        "exportAs": null
+      },
+      "HlmInputGroupTextarea": {
+        "file": "src/app/components/ui/input-group/src/lib/hlm-input-group-textarea.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "textarea[hlmInputGroupTextarea]",
+        "exportAs": null
+      },
+      "HlmInputGroup": {
+        "file": "src/app/components/ui/input-group/src/lib/hlm-input-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmInputGroup],hlm-input-group",
+        "exportAs": null
+      }
+    }
+  },
+  "input-otp": {
+    "helm": {
+      "HlmInputOtpFakeCaret": {
+        "file": "src/app/components/ui/input-otp/src/lib/hlm-input-otp-fake-caret.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-input-otp-fake-caret",
+        "exportAs": null
+      },
+      "HlmInputOtpGroup": {
+        "file": "src/app/components/ui/input-otp/src/lib/hlm-input-otp-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmInputOtpGroup],hlm-input-otp-group",
+        "exportAs": null
+      },
+      "HlmInputOtpSeparator": {
+        "file": "src/app/components/ui/input-otp/src/lib/hlm-input-otp-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-input-otp-separator",
+        "exportAs": null
+      },
+      "HlmInputOtpSlot": {
+        "file": "src/app/components/ui/input-otp/src/lib/hlm-input-otp-slot.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-input-otp-slot",
+        "exportAs": null
+      },
+      "HlmInputOtp": {
+        "file": "src/app/components/ui/input-otp/src/lib/hlm-input-otp.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "brn-input-otp[hlmInputOtp], brn-input-otp[hlm]",
+        "exportAs": null
+      }
+    }
+  },
+  "item": {
+    "helm": {
+      "HlmItemActions": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-actions.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemActions],hlm-item-actions",
+        "exportAs": null
+      },
+      "HlmItemContent": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemContent],hlm-item-content",
+        "exportAs": null
+      },
+      "HlmItemDescription": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-description.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemDescription],hlm-item-description",
+        "exportAs": null
+      },
+      "HlmItemFooter": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-footer.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemFooter],hlm-item-footer",
+        "exportAs": null
+      },
+      "HlmItemGroup": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemGroup],hlm-item-group",
+        "exportAs": null
+      },
+      "HlmItemHeader": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-header.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemHeader],hlm-item-header",
+        "exportAs": null
+      },
+      "HlmItemMedia": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-media.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemMedia],hlm-item-media",
+        "exportAs": null
+      },
+      "HlmItemSeparator": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemSeparator],hlm-item-separator",
+        "exportAs": null
+      },
+      "HlmItemTitle": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item-title.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItemTitle],hlm-item-title",
+        "exportAs": null
+      },
+      "HlmItem": {
+        "file": "src/app/components/ui/item/src/lib/hlm-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmItem],hlm-item",
+        "exportAs": null
+      }
+    }
+  },
+  "kbd": {
+    "helm": {
+      "HlmKbdGroup": {
+        "file": "src/app/components/ui/kbd/src/lib/hlm-kbd-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "kbd[hlmKbdGroup]",
+        "exportAs": null
+      },
+      "HlmKbd": {
+        "file": "src/app/components/ui/kbd/src/lib/hlm-kbd.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "kbd[hlmKbd]",
+        "exportAs": null
+      }
+    }
+  },
+  "label": {
+    "helm": {
+      "HlmLabel": {
+        "file": "src/app/components/ui/label/src/lib/hlm-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmLabel]",
+        "exportAs": null
+      }
+    }
+  },
+  "menubar": {
+    "helm": {
+      "HlmMenubarTrigger": {
+        "file": "src/app/components/ui/menubar/src/lib/hlm-menubar-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmMenubarTrigger]",
+        "exportAs": null
+      },
+      "HlmMenubar": {
+        "file": "src/app/components/ui/menubar/src/lib/hlm-menubar.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmMenubar],hlm-menubar",
+        "exportAs": null
+      }
+    }
+  },
+  "native-select": {
+    "helm": {
+      "HlmNativeSelectOptGroup": {
+        "file": "src/app/components/ui/native-select/src/lib/hlm-native-select-opt-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmNativeSelectOptGroup]",
+        "exportAs": null
+      },
+      "HlmNativeSelectOption": {
+        "file": "src/app/components/ui/native-select/src/lib/hlm-native-select-option.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmNativeSelectOption]",
+        "exportAs": null
+      },
+      "HlmNativeSelect": {
+        "file": "src/app/components/ui/native-select/src/lib/hlm-native-select.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-native-select",
+        "exportAs": null
+      }
+    }
+  },
+  "navigation-menu": {
+    "helm": {
+      "HlmNavigationMenuContent": {
+        "file": "src/app/components/ui/navigation-menu/src/lib/hlm-navigation-menu-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmNavigationMenuContent],hlm-navigation-menu-content",
+        "exportAs": null
+      },
+      "HlmNavigationMenuItem": {
+        "file": "src/app/components/ui/navigation-menu/src/lib/hlm-navigation-menu-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "li[hlmNavigationMenuItem]",
+        "exportAs": null
+      },
+      "HlmNavigationMenuLink": {
+        "file": "src/app/components/ui/navigation-menu/src/lib/hlm-navigation-menu-link.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "a[hlmNavigationMenuLink]",
+        "exportAs": null
+      },
+      "HlmNavigationMenuList": {
+        "file": "src/app/components/ui/navigation-menu/src/lib/hlm-navigation-menu-list.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "ul[hlmNavigationMenuList]",
+        "exportAs": null
+      },
+      "HlmNavigationMenuPortal": {
+        "file": "src/app/components/ui/navigation-menu/src/lib/hlm-navigation-menu-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmNavigationMenuPortal]",
+        "exportAs": null
+      },
+      "HlmNavigationMenuTrigger": {
+        "file": "src/app/components/ui/navigation-menu/src/lib/hlm-navigation-menu-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmNavigationMenuTrigger]",
+        "exportAs": null
+      },
+      "HlmNavigationMenu": {
+        "file": "src/app/components/ui/navigation-menu/src/lib/hlm-navigation-menu.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "nav[hlmNavigationMenu]",
+        "exportAs": null
+      }
+    }
+  },
+  "pagination": {
+    "helm": {
+      "HlmNumberedPaginationQueryParams": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-numbered-pagination-query-params.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-numbered-pagination-query-params",
+        "exportAs": null
+      },
+      "HlmNumberedPagination": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-numbered-pagination.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-numbered-pagination",
+        "exportAs": null
+      },
+      "HlmPaginationContent": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-pagination-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "ul[hlmPaginationContent]",
+        "exportAs": null
+      },
+      "HlmPaginationEllipsis": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-pagination-ellipsis.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-pagination-ellipsis",
+        "exportAs": null
+      },
+      "HlmPaginationItem": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-pagination-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "li[hlmPaginationItem]",
+        "exportAs": null
+      },
+      "HlmPaginationLink": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-pagination-link.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmPaginationLink]",
+        "exportAs": null
+      },
+      "HlmPaginationNext": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-pagination-next.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-pagination-next",
+        "exportAs": null
+      },
+      "HlmPaginationPrevious": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-pagination-previous.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-pagination-previous",
+        "exportAs": null
+      },
+      "HlmPagination": {
+        "file": "src/app/components/ui/pagination/src/lib/hlm-pagination.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmPagination],hlm-pagination",
+        "exportAs": null
+      }
+    }
+  },
+  "popover": {
+    "helm": {
+      "HlmPopoverContent": {
+        "file": "src/app/components/ui/popover/src/lib/hlm-popover-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmPopoverContent],hlm-popover-content",
+        "exportAs": null
+      },
+      "HlmPopoverPortal": {
+        "file": "src/app/components/ui/popover/src/lib/hlm-popover-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmPopoverPortal]",
+        "exportAs": null
+      },
+      "HlmPopoverTrigger": {
+        "file": "src/app/components/ui/popover/src/lib/hlm-popover-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmPopoverTrigger],button[hlmPopoverTriggerFor]",
+        "exportAs": null
+      },
+      "HlmPopover": {
+        "file": "src/app/components/ui/popover/src/lib/hlm-popover.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmPopover],hlm-popover",
+        "exportAs": null
+      }
+    }
+  },
+  "progress": {
+    "helm": {
+      "HlmProgressIndicator": {
+        "file": "src/app/components/ui/progress/src/lib/hlm-progress-indicator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmProgressIndicator],hlm-progress-indicator",
+        "exportAs": null
+      },
+      "HlmProgress": {
+        "file": "src/app/components/ui/progress/src/lib/hlm-progress.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-progress,[hlmProgress]",
+        "exportAs": null
+      }
+    }
+  },
+  "radio-group": {
+    "helm": {
+      "HlmRadioGroup": {
+        "file": "src/app/components/ui/radio-group/src/lib/hlm-radio-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmRadioGroup],hlm-radio-group",
+        "exportAs": null
+      },
+      "HlmRadioIndicator": {
+        "file": "src/app/components/ui/radio-group/src/lib/hlm-radio-indicator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-radio-indicator",
+        "exportAs": null
+      },
+      "HlmRadio": {
+        "file": "src/app/components/ui/radio-group/src/lib/hlm-radio.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-radio",
+        "exportAs": null
+      }
+    }
+  },
+  "resizable": {
+    "helm": {
+      "HlmResizableGroup": {
+        "file": "src/app/components/ui/resizable/src/lib/hlm-resizable-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmResizableGroup],hlm-resizable-group",
+        "exportAs": null
+      },
+      "HlmResizableHandle": {
+        "file": "src/app/components/ui/resizable/src/lib/hlm-resizable-handle.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-resizable-handle",
+        "exportAs": "hlmResizableHandle"
+      },
+      "HlmResizablePanel": {
+        "file": "src/app/components/ui/resizable/src/lib/hlm-resizable-panel.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmResizablePanel],hlm-resizable-panel",
+        "exportAs": "hlmResizablePanel"
+      }
+    }
+  },
+  "scroll-area": {
+    "helm": {
+      "HlmScrollArea": {
+        "file": "src/app/components/ui/scroll-area/src/lib/hlm-scroll-area.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "ng-scrollbar[hlm],ng-scrollbar[hlmScrollbar]",
+        "exportAs": null
+      }
+    }
+  },
+  "select": {
+    "helm": {
+      "HlmSelectContent": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-select-content",
+        "exportAs": null
+      },
+      "HlmSelectGroup": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectGroup],hlm-select-group",
+        "exportAs": null
+      },
+      "HlmSelectItem": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-select-item",
+        "exportAs": null
+      },
+      "HlmSelectLabel": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectLabel],hlm-select-label",
+        "exportAs": null
+      },
+      "HlmSelectMultiple": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-multiple.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectMultiple],hlm-select-multiple",
+        "exportAs": null
+      },
+      "HlmSelectPlaceholder": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-placeholder.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectPlaceholder],hlm-select-placeholder",
+        "exportAs": null
+      },
+      "HlmSelectPortal": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-portal.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectPortal]",
+        "exportAs": null
+      },
+      "HlmSelectScrollDown": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-scroll-down.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-select-scroll-down",
+        "exportAs": null
+      },
+      "HlmSelectScrollUp": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-scroll-up.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-select-scroll-up",
+        "exportAs": null
+      },
+      "HlmSelectSeparator": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectSeparator],hlm-select-separator",
+        "exportAs": null
+      },
+      "HlmSelectTrigger": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-select-trigger",
+        "exportAs": null
+      },
+      "HlmSelectValueTemplate": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-value-template.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectValueTemplate]",
+        "exportAs": null
+      },
+      "HlmSelectValue": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-value.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectValue],hlm-select-value",
+        "exportAs": null
+      },
+      "HlmSelectValuesContent": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-values-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectValuesContent],hlm-select-values-content",
+        "exportAs": null
+      },
+      "HlmSelectValues": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select-values.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelectValues]",
+        "exportAs": null
+      },
+      "HlmSelect": {
+        "file": "src/app/components/ui/select/src/lib/hlm-select.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSelect],hlm-select",
+        "exportAs": null
+      }
+    }
+  },
+  "separator": {
+    "helm": {
+      "HlmSeparator": {
+        "file": "src/app/components/ui/separator/src/lib/hlm-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSeparator],hlm-separator",
+        "exportAs": null
+      }
+    }
+  },
+  "sidebar": {
+    "helm": {
+      "HlmSidebarContent": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSidebarContent],hlm-sidebar-content",
+        "exportAs": null
+      },
+      "HlmSidebarFooter": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-footer.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSidebarFooter],hlm-sidebar-footer",
+        "exportAs": null
+      },
+      "HlmSidebarGroupAction": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-group-action.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmSidebarGroupAction]",
+        "exportAs": null
+      },
+      "HlmSidebarGroupContent": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-group-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "div[hlmSidebarGroupContent]",
+        "exportAs": null
+      },
+      "HlmSidebarGroupLabel": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-group-label.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "div[hlmSidebarGroupLabel], button[hlmSidebarGroupLabel]",
+        "exportAs": null
+      },
+      "HlmSidebarGroup": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSidebarGroup],hlm-sidebar-group",
+        "exportAs": null
+      },
+      "HlmSidebarHeader": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-header.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSidebarHeader],hlm-sidebar-header",
+        "exportAs": null
+      },
+      "HlmSidebarInput": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-input.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "input[hlmSidebarInput]",
+        "exportAs": null
+      },
+      "HlmSidebarInset": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-inset.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "main[hlmSidebarInset]",
+        "exportAs": null
+      },
+      "HlmSidebarMenuAction": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-action.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmSidebarMenuAction]",
+        "exportAs": null
+      },
+      "HlmSidebarMenuBadge": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-badge.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSidebarMenuBadge],hlm-sidebar-menu-badge",
+        "exportAs": null
+      },
+      "HlmSidebarMenuButton": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-button.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmSidebarMenuButton], a[hlmSidebarMenuButton]",
+        "exportAs": null
+      },
+      "HlmSidebarMenuItem": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "li[hlmSidebarMenuItem]",
+        "exportAs": null
+      },
+      "HlmSidebarMenuSkeleton": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-skeleton.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-sidebar-menu-skeleton,div[hlmSidebarMenuSkeleton]",
+        "exportAs": null
+      },
+      "HlmSidebarMenuSubButton": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-sub-button.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "a[hlmSidebarMenuSubButton], button[hlmSidebarMenuSubButton]",
+        "exportAs": null
+      },
+      "HlmSidebarMenuSubItem": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-sub-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "li[hlmSidebarMenuSubItem]",
+        "exportAs": null
+      },
+      "HlmSidebarMenuSub": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu-sub.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "ul[hlmSidebarMenuSub]",
+        "exportAs": null
+      },
+      "HlmSidebarMenu": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-menu.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "ul[hlmSidebarMenu]",
+        "exportAs": null
+      },
+      "HlmSidebarRail": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-rail.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmSidebarRail]",
+        "exportAs": null
+      },
+      "HlmSidebarSeparator": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-separator.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSidebarSeparator],hlm-sidebar-separator",
+        "exportAs": null
+      },
+      "HlmSidebarTrigger": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmSidebarTrigger]",
+        "exportAs": null
+      },
+      "HlmSidebarWrapper": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar-wrapper.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSidebarWrapper],hlm-sidebar-wrapper",
+        "exportAs": null
+      },
+      "HlmSidebar": {
+        "file": "src/app/components/ui/sidebar/src/lib/hlm-sidebar.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-sidebar",
+        "exportAs": null
+      }
+    }
+  },
+  "skeleton": {
+    "helm": {
+      "HlmSkeleton": {
+        "file": "src/app/components/ui/skeleton/src/lib/hlm-skeleton.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSkeleton],hlm-skeleton",
+        "exportAs": null
+      }
+    }
+  },
+  "slider": {
+    "helm": {
+      "HlmSlider": {
+        "file": "src/app/components/ui/slider/src/lib/hlm-slider.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-slider, brn-slider [hlm]",
+        "exportAs": null
+      }
+    }
+  },
+  "sonner": {
+    "helm": {
+      "HlmToaster": {
+        "file": "src/app/components/ui/sonner/src/lib/hlm-toaster.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-toaster",
+        "exportAs": null
+      }
+    }
+  },
+  "spinner": {
+    "helm": {
+      "HlmSpinner": {
+        "file": "src/app/components/ui/spinner/src/lib/hlm-spinner.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-spinner",
+        "exportAs": null
+      }
+    }
+  },
+  "switch": {
+    "helm": {
+      "HlmSwitchThumb": {
+        "file": "src/app/components/ui/switch/src/lib/hlm-switch-thumb.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "brn-switch-thumb[hlm],[hlmSwitchThumb]",
+        "exportAs": null
+      },
+      "HlmSwitch": {
+        "file": "src/app/components/ui/switch/src/lib/hlm-switch.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-switch",
+        "exportAs": null
+      }
+    }
+  },
+  "table": {
+    "helm": {
+      "HlmTableContainer": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "div[hlmTableContainer]",
+        "exportAs": null
+      },
+      "HlmTable": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "table[hlmTable]",
+        "exportAs": null
+      },
+      "HlmTHead": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "thead[hlmTHead],thead[hlmTableHeader]",
+        "exportAs": null
+      },
+      "HlmTBody": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "tbody[hlmTBody],tbody[hlmTableBody]",
+        "exportAs": null
+      },
+      "HlmTFoot": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "tfoot[hlmTFoot],tfoot[hlmTableFooter]",
+        "exportAs": null
+      },
+      "HlmTr": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "tr[hlmTr],tr[hlmTableRow]",
+        "exportAs": null
+      },
+      "HlmTh": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "th[hlmTh],th[hlmTableHead]",
+        "exportAs": null
+      },
+      "HlmTd": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "td[hlmTd],td[hlmTableCell]",
+        "exportAs": null
+      },
+      "HlmCaption": {
+        "file": "src/app/components/ui/table/src/lib/hlm-table.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "caption[hlmCaption],caption[hlmTableCaption]",
+        "exportAs": null
+      }
+    }
+  },
+  "tabs": {
+    "helm": {
+      "HlmTabsContentLazy": {
+        "file": "src/app/components/ui/tabs/src/lib/hlm-tabs-content-lazy.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "ng-template[hlmTabsContentLazy]",
+        "exportAs": null
+      },
+      "HlmTabsContent": {
+        "file": "src/app/components/ui/tabs/src/lib/hlm-tabs-content.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmTabsContent]",
+        "exportAs": null
+      },
+      "HlmTabsList": {
+        "file": "src/app/components/ui/tabs/src/lib/hlm-tabs-list.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmTabsList],hlm-tabs-list",
+        "exportAs": null
+      },
+      "HlmTabsPaginatedList": {
+        "file": "src/app/components/ui/tabs/src/lib/hlm-tabs-paginated-list.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "hlm-paginated-tabs-list",
+        "exportAs": null
+      },
+      "HlmTabsTrigger": {
+        "file": "src/app/components/ui/tabs/src/lib/hlm-tabs-trigger.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmTabsTrigger]",
+        "exportAs": null
+      },
+      "HlmTabs": {
+        "file": "src/app/components/ui/tabs/src/lib/hlm-tabs.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmTabs],hlm-tabs",
+        "exportAs": null
+      }
+    }
+  },
+  "textarea": {
+    "helm": {
+      "HlmTextarea": {
+        "file": "src/app/components/ui/textarea/src/lib/hlm-textarea.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmTextarea]",
+        "exportAs": null
+      }
+    }
+  },
+  "toggle": {
+    "helm": {
+      "HlmToggle": {
+        "file": "src/app/components/ui/toggle/src/lib/hlm-toggle.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmToggle]",
+        "exportAs": null
+      }
+    }
+  },
+  "toggle-group": {
+    "helm": {
+      "HlmToggleGroupItem": {
+        "file": "src/app/components/ui/toggle-group/src/lib/hlm-toggle-group-item.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "button[hlmToggleGroupItem]",
+        "exportAs": null
+      },
+      "HlmToggleGroup": {
+        "file": "src/app/components/ui/toggle-group/src/lib/hlm-toggle-group.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmToggleGroup],hlm-toggle-group",
+        "exportAs": null
+      }
+    }
+  },
+  "tooltip": {
+    "helm": {
+      "HlmTooltip": {
+        "file": "src/app/components/ui/tooltip/src/lib/hlm-tooltip.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmTooltip]",
+        "exportAs": null
+      }
+    }
+  },
+  "typography": {
+    "helm": {
+      "HlmBlockquote": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-blockquote.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmBlockquote]",
+        "exportAs": null
+      },
+      "HlmCode": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-code.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmCode]",
+        "exportAs": null
+      },
+      "HlmH1": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-h1.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmH1]",
+        "exportAs": null
+      },
+      "HlmH2": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-h2.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmH2]",
+        "exportAs": null
+      },
+      "HlmH3": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-h3.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmH3]",
+        "exportAs": null
+      },
+      "HlmH4": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-h4.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmH4]",
+        "exportAs": null
+      },
+      "HlmLarge": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-large.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmLarge]",
+        "exportAs": null
+      },
+      "HlmLead": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-lead.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmLead]",
+        "exportAs": null
+      },
+      "HlmMuted": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-muted.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmMuted]",
+        "exportAs": null
+      },
+      "HlmP": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-p.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmP]",
+        "exportAs": null
+      },
+      "HlmSmall": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-small.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmSmall]",
+        "exportAs": null
+      },
+      "HlmUl": {
+        "file": "src/app/components/ui/typography/src/lib/hlm-ul.ts",
+        "inputs": [],
+        "outputs": [],
+        "models": [],
+        "selector": "[hlmUl]",
+        "exportAs": null
+      }
+    }
+  }
+}

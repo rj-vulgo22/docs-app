@@ -8,9 +8,9 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1000;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
   animation: fadeIn 0.2s ease-out;
 }
 
@@ -20,14 +20,14 @@
   left: 0;
   width: 300px;
   height: 100vh;
-  background-color: hsl(var(--background));
+  background-color: hsl(var(--surface-100));
   border-right: 1px solid hsl(var(--border));
   z-index: 1001;
   transform: translateX(-100%);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
-  box-shadow: 10px 0 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 15px 0 30px -10px rgba(0, 0, 0, 0.6);
 }
 
 .sheet-content.open {
@@ -38,14 +38,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 24px;
+  padding: 20px 24px;
   border-bottom: 1px solid hsl(var(--border));
 }
 
 .sheet-title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: hsl(var(--foreground));
+  letter-spacing: -0.01em;
 }
 
 .sheet-close {
@@ -53,9 +54,9 @@
   border: none;
   cursor: pointer;
   color: hsl(var(--muted-foreground));
-  padding: 4px;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+  padding: 6px;
+  border-radius: var(--radius);
+  transition: all 0.2s;
 }
 
 .sheet-close:hover {
@@ -70,6 +71,10 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

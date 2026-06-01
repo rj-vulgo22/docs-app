@@ -1,0 +1,229 @@
+import { Component, computed, inject } from '@angular/core';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import { lucideCircleAlert } from '@ng-icons/lucide';
+import { PrimitiveSnippetsService } from '@spartan-ng/app/app/core/services/primitive-snippets.service';
+import { InstallTabs } from '@spartan-ng/app/app/shared/layout/install-tabs';
+import { SectionSubSubHeading } from '@spartan-ng/app/app/shared/layout/section-sub-sub-heading';
+import { HlmAlert, HlmAlertDescription } from '@spartan-ng/helm/alert';
+import { hlmCode } from '@spartan-ng/helm/typography';
+import { Code } from '../../shared/code/code';
+import { CodePreview } from '../../shared/code/code-preview';
+import { MainSection } from '../../shared/layout/main-section';
+import { PageBottomNav } from '../../shared/layout/page-bottom-nav/page-bottom-nav';
+import { PageBottomNavLink } from '../../shared/layout/page-bottom-nav/page-bottom-nav-link';
+import { PageNav } from '../../shared/layout/page-nav/page-nav';
+import { SectionIntro } from '../../shared/layout/section-intro';
+import { SectionSubHeading } from '../../shared/layout/section-sub-heading';
+import { Tabs } from '../../shared/layout/tabs';
+import { UIApiDocs } from '../../shared/layout/ui-docs-section/ui-docs-section';
+import { metaWith } from '../../shared/meta/meta.util';
+import { TabsBasicPreview } from './tabs--basic.preview';
+import { TabsIconsOnlyPreview } from './tabs--icon-only.preview';
+import { TabsInputButtonPreview } from './tabs--input-button.preview';
+import { TabsLazyPreview } from './tabs--lazy.preview';
+import { TabsLinePreview } from './tabs--line.preview';
+import { TabsPaginatedPreview } from './tabs--paginated.preview';
+import { TabsVerticalPreview } from './tabs--vertical.preview';
+import { TabsWithIconsPreview } from './tabs--with-icons.preview';
+import { TabsPreview, defaultImports, defaultSkeleton } from './tabs.preview';
+
+export const routeData = {
+	data: { breadcrumb: 'Tabs', api: 'tabs' },
+	meta: metaWith(
+		'spartan/ui - Tabs',
+		'A set of layered sections of content—known as tab panels—that are displayed one at a time.',
+	),
+	title: 'spartan/ui - Tabs',
+};
+@Component({
+	selector: 'spartan-tabs-page',
+	imports: [
+		UIApiDocs,
+		MainSection,
+		InstallTabs,
+		Code,
+		SectionIntro,
+		SectionSubHeading,
+		Tabs,
+
+		CodePreview,
+		PageNav,
+		PageBottomNav,
+		PageBottomNavLink,
+		TabsPreview,
+		TabsVerticalPreview,
+		TabsPaginatedPreview,
+		TabsBasicPreview,
+		TabsLinePreview,
+		TabsWithIconsPreview,
+		TabsIconsOnlyPreview,
+		TabsInputButtonPreview,
+		TabsLazyPreview,
+		HlmAlertDescription,
+		HlmAlert,
+		NgIcon,
+		SectionSubSubHeading,
+	],
+	providers: [provideIcons({ lucideCircleAlert })],
+	template: `
+		<section spartanMainSection>
+			<spartan-section-intro
+				name="Tabs"
+				lead="A set of layered sections of content—known as tab panels—that are displayed one at a time."
+			/>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-preview />
+				</div>
+				<spartan-code secondTab [code]="_defaultCode()" />
+			</spartan-tabs>
+
+			<spartan-install-tabs primitive="tabs" />
+
+			<spartan-section-sub-heading id="usage">Usage</spartan-section-sub-heading>
+			<div class="mt-6 space-y-4">
+				<spartan-code [code]="_defaultImports" />
+				<spartan-code [code]="_defaultSkeleton" />
+			</div>
+
+			<spartan-section-sub-heading id="examples">Examples</spartan-section-sub-heading>
+			<h3 id="examples__vertical" spartanH4>Vertical</h3>
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-vertical />
+				</div>
+				<spartan-code secondTab [code]="_verticalCode()" />
+			</spartan-tabs>
+
+			<h3 id="examples__basic" spartanH4>Basic</h3>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-basic />
+				</div>
+				<spartan-code secondTab [code]="_basicCode()" />
+			</spartan-tabs>
+
+			<h3 id="examples__line" spartanH4>Line</h3>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-line />
+				</div>
+				<spartan-code secondTab [code]="_lineCode()" />
+			</spartan-tabs>
+
+			<h3 id="examples__with_icons" spartanH4>With Icons</h3>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-with-icons />
+				</div>
+				<spartan-code secondTab [code]="_withIconsCode()" />
+			</spartan-tabs>
+
+			<h3 id="examples__icons_only" spartanH4>Icons Only</h3>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-icons-only />
+				</div>
+				<spartan-code secondTab [code]="_iconOnlyCode()" />
+			</spartan-tabs>
+
+			<h3 id="examples__input_button" spartanH4>With Input and Button</h3>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-input-button />
+				</div>
+				<spartan-code secondTab [code]="_inputButtonCode()" />
+			</spartan-tabs>
+
+			<h3 id="examples__lazy_loading" spartanH4>Lazy Loading</h3>
+
+			<p class="py-2">
+				Use
+				<code class="${hlmCode}">hlmTabsContentLazy</code>
+				on an
+				<code class="${hlmCode}">ng-template</code>
+				inside a tab panel to keep its content out of the DOM until the user navigates to that tab. This is particularly
+				useful when panels trigger network requests or render expensive component trees. The content is created once on
+				first visit and remains alive for subsequent visits.
+			</p>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-lazy />
+				</div>
+				<spartan-code secondTab [code]="_lazyCode()" />
+			</spartan-tabs>
+
+			<h3 id="examples__paginated_tabs" spartanH4>Paginated Tabs</h3>
+
+			<p class="pt-2">
+				Use
+				<code class="${hlmCode}">hlm-paginated-tabs-list</code>
+				instead of
+				<code class="${hlmCode}">hlm-tabs-list</code>
+				for paginated tabs list with next and previous buttons.
+			</p>
+			<p class="py-2">
+				Disable pagination with
+				<code class="${hlmCode}">[disablePagination]="true"</code>
+				. Hides the pagination buttons and active tab is not scrolled into view.
+			</p>
+
+			<div hlmAlert class="my-2">
+				<ng-icon name="lucideCircleAlert" />
+				<div hlmAlertDescription>
+					<p>
+						<strong>Padding</strong>
+						styles, applied to the tab list (
+						<code class="${hlmCode}">listVariants</code>
+						), are
+						<strong>not</strong>
+						taken into account during
+						<strong>keyboard scrolling</strong>
+						. This affects the active tab's scrolling position and next/previous button remain enabled even when the
+						active tab is at the start or end of the tab list.
+					</p>
+				</div>
+			</div>
+
+			<spartan-tabs firstTab="Preview" secondTab="Code">
+				<div spartanCodePreview firstTab>
+					<spartan-tabs-paginated />
+				</div>
+				<spartan-code secondTab [code]="_paginatedCode()" />
+			</spartan-tabs>
+
+			<spartan-section-sub-heading id="brn-api">Brain API</spartan-section-sub-heading>
+			<spartan-ui-api-docs docType="brain" />
+
+			<spartan-section-sub-heading id="hlm-api">Helm API</spartan-section-sub-heading>
+			<spartan-ui-api-docs docType="helm" />
+
+			<spartan-page-bottom-nav>
+				<spartan-page-bottom-nav-link href="textarea" label="Textarea" />
+				<spartan-page-bottom-nav-link direction="previous" href="table" label="Table" />
+			</spartan-page-bottom-nav>
+		</section>
+		<spartan-page-nav />
+	`,
+})
+export class TabsPage {
+	private readonly _snippets = inject(PrimitiveSnippetsService).getSnippets('tabs');
+	protected readonly _defaultCode = computed(() => this._snippets()['default']);
+	protected readonly _verticalCode = computed(() => this._snippets()['vertical']);
+	protected readonly _basicCode = computed(() => this._snippets()['basic']);
+	protected readonly _lineCode = computed(() => this._snippets()['line']);
+	protected readonly _withIconsCode = computed(() => this._snippets()['withIcons']);
+	protected readonly _iconOnlyCode = computed(() => this._snippets()['iconOnly']);
+	protected readonly _inputButtonCode = computed(() => this._snippets()['inputButton']);
+	protected readonly _lazyCode = computed(() => this._snippets()['lazy']);
+	protected readonly _paginatedCode = computed(() => this._snippets()['paginated']);
+	protected readonly _defaultSkeleton = defaultSkeleton;
+	protected readonly _defaultImports = defaultImports;
+}

@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './sheet.html',
-  styleUrl: './sheet.css'
+  styleUrl: './sheet.css',
 })
 export class SheetComponent {
   @Input() title: string = 'Menu';
@@ -23,7 +23,7 @@ export class SheetComponent {
   }
 
   toggle() {
-    this.isOpen.update(v => !v);
+    this.isOpen.update((v) => !v);
     if (!this.isOpen()) {
       document.body.style.overflow = 'auto';
     } else {

@@ -2,7 +2,8 @@
   width: 100%;
   border-radius: var(--radius);
   border: 1px solid hsl(var(--border));
-  background-color: hsl(var(--card));
+  background-color: hsl(var(--surface-100));
+  overflow: hidden;
 }
 
 .accordion-item {
@@ -23,6 +24,7 @@
   border: none;
   cursor: pointer;
   font-weight: 500;
+  font-size: 14px;
   color: hsl(var(--foreground));
   text-align: left;
   transition: background-color 0.2s;
@@ -32,12 +34,18 @@
   background-color: hsl(var(--accent));
 }
 
+.accordion-trigger.active {
+  color: hsl(var(--primary));
+}
+
 .chevron {
   transition: transform 0.2s ease;
+  color: hsl(var(--muted-foreground));
 }
 
 .chevron.rotated {
   transform: rotate(180deg);
+  color: hsl(var(--primary));
 }
 
 .accordion-content {
@@ -52,7 +60,69 @@
 }
 
 .accordion-inner {
-  padding: 12px 16px;
+  padding: 16px;
   color: hsl(var(--muted-foreground));
   font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.accordion-item {
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-trigger {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: hsl(var(--foreground));
+  text-align: left;
+  transition: background-color 0.2s;
+}
+
+.accordion-trigger:hover {
+  background-color: hsl(var(--accent));
+}
+
+.accordion-trigger.active {
+  color: hsl(var(--primary));
+}
+
+.chevron {
+  transition: transform 0.2s ease;
+  color: hsl(var(--muted-foreground));
+}
+
+.chevron.rotated {
+  transform: rotate(180deg);
+  color: hsl(var(--primary));
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: hsl(var(--background));
+}
+
+.accordion-content.open {
+  max-height: 500px;
+}
+
+.accordion-inner {
+  padding: 16px;
+  color: hsl(var(--muted-foreground));
+  font-size: 14px;
+  line-height: 1.5;
 }

@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/docs-app/browser",
+  "framework": "angular"
+}

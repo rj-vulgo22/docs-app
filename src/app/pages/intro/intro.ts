@@ -24,12 +24,22 @@ import { Component } from '@angular/core';
     </section>
   `,
   styles: [`
+    ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.25rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+      color: hsl(var(--muted-foreground));
+    }
     .info-box {
       background-color: hsl(var(--secondary));
+      border: 1px solid hsl(var(--border));
       border-left: 4px solid hsl(var(--primary));
       padding: 16px;
       margin-top: 32px;
-      border-radius: 4px;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
     }
   `]
 })
